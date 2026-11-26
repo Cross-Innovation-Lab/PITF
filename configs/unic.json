@@ -1,0 +1,38 @@
+{
+  "dataset": "unic",
+  "features": "data/unic.pkl",
+  "annotations": "data/UniC_labels.csv",
+  "bert": "pretrained/bert_en",
+  "device": "cuda:0",
+  "seeds": [
+    1,
+    12,
+    123,
+    1234,
+    1235
+  ],
+  "arms": [
+    "111"
+  ],
+  "encoder_seed": 1,
+  "encoder_epochs": {
+    "T": 150,
+    "A": 300,
+    "V": 300
+  },
+  "mono_patience": 20,
+  "mono_min_epochs": 30,
+  "mono_micro": {
+    "T": 16,
+    "A": 1,
+    "V": 8
+  },
+  "micro_batch": 1,
+  "eval_batch": 2,
+  "neighbor_batch": 2,
+  "max_epochs": 50,
+  "lr": 0.0001,
+  "logical_batch": 32,
+  "neighbor_refresh": 10,
+  "selection_reference": null
+}

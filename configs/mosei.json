@@ -1,0 +1,38 @@
+{
+  "dataset": "mosei",
+  "features": "data/mosei.pkl",
+  "annotations": null,
+  "bert": "pretrained/bert_en",
+  "device": "cuda:0",
+  "seeds": [
+    1,
+    12,
+    123,
+    1234,
+    1235
+  ],
+  "arms": [
+    "111"
+  ],
+  "encoder_seed": 1,
+  "encoder_epochs": {
+    "T": 150,
+    "A": 300,
+    "V": 300
+  },
+  "mono_patience": 20,
+  "mono_min_epochs": 30,
+  "mono_micro": {
+    "T": 16,
+    "A": 8,
+    "V": 16
+  },
+  "micro_batch": 2,
+  "eval_batch": 16,
+  "neighbor_batch": 16,
+  "max_epochs": 50,
+  "lr": 0.0001,
+  "logical_batch": 32,
+  "neighbor_refresh": 2,
+  "selection_reference": null
+}

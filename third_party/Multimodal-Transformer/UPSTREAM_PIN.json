@@ -1,0 +1,21 @@
+{
+  "repo": "https://github.com/yaohungt/Multimodal-Transformer",
+  "commit": "a670936824ee722c8494fd98d204977a1d663c7a",
+  "files": {
+    "src/models.py": "34411b4568f82dbee43125f864c98c0acb921913274467a2c4ff965a2b675fae",
+    "modules/transformer.py": "e5cfc05d5fe8eed67d59a93296db9e179031cdda682bb0660c378a10e3ad61ca",
+    "modules/multihead_attention.py": "17f6d199f49a772fa613849c2cd48319a8e0fd50514a8a7860952153594a6b53",
+    "modules/position_embedding.py": "d59e0c826a02502e1233da138ed51c2610f585896335482956655d48946a1fed",
+    "LICENSE": "1d00babf3f4dd878a9a694eed8949832e8db079e1147d9ac6af68f7de956fb23",
+    "README.md": "ecc6733fe7f9a23786456fcf267c213f9325182bbd0af700fcbd8436f73abed0"
+  },
+  "files_scope": "upstream",
+  "local_file_sha256": {
+    "src/models.py": "da7a42b4af973b75a42e599af57e6294628229bd80f35bea27b3c754d8e83262",
+    "modules/transformer.py": "6f60210e8a9f4a236764382ed2608e4cf01d7ed78c0a11263cb1404c37454f9b",
+    "modules/multihead_attention.py": "9e658fa50b98bec8a824f81ed4948ce48c3c7473693d12d9190cb5e32fee6c81",
+    "modules/position_embedding.py": "d2ebdcf6749d9f9dd427023a661d557e36911b756d765e577bd29ce632e3cec5",
+    "LICENSE": "1d00babf3f4dd878a9a694eed8949832e8db079e1147d9ac6af68f7de956fb23",
+    "README.md": "ecc6733fe7f9a23786456fcf267c213f9325182bbd0af700fcbd8436f73abed0"
+  }
+}

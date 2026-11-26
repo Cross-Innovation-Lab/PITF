@@ -1,0 +1,6 @@
+numpy==1.26.4
+transformers==4.36.2
+pytorch-metric-learning==0.9.99
+scikit-learn==1.7.2
+scipy==1.15.3
+pytest==9.1.1
